@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# MLflow and artifacts
+mlruns/
+.mlflow/
+
+# Generated models (optional if you prefer pulling via pipeline, but keep tracked if committed)
+# models/*.joblib
+
+# OS files
+.DS_Store
